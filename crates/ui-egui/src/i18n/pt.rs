@@ -949,7 +949,9 @@ pub(super) fn translate(text: &str) -> Option<&'static str> {
         "€ Euro" => "€ Euro",
         "Tab|Insert" => "Inserir",
         "AutoSave" => "Salvamento Automático",
-        "AutoSave: save after every change (workbooks saved to a file)" => "Salvamento Automático: salva após cada alteração (pastas de trabalho salvas em um arquivo)",
+        "AutoSave: save after every change (workbooks saved to a file)" => {
+            "Salvamento Automático: salva após cada alteração (pastas de trabalho salvas em um arquivo)"
+        }
         "Insert\nSlicer" => "Inserir\nSegmentação",
         "Pen\nBlack" => "Caneta\nPreta",
         "Pen\nBlue" => "Caneta\nAzul",
